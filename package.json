@@ -1,0 +1,29 @@
+{
+  "name": "e-biblioteca",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^6.5.7",
+    "@react-navigation/native": "^6.1.6",
+    "expo": "^47.0.0",
+    "expo-barcode-scanner": "~12.1.0",
+    "expo-camera": "~13.1.0",
+    "expo-permissions": "~14.0.0",
+    "expo-status-bar": "~1.4.2",
+    "firebase": "^8.10.1",
+    "react": "18.1.0",
+    "react-native": "0.70.5",
+    "react-native-gesture-handler": "~2.8.0",
+    "react-native-screens": "~3.18.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3"
+  },
+  "private": true
+}
